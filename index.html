@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Adivina Quien</title>
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Source+Code+Pro" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    	<div class="container"><!--container-->
+    		<header>
+    			<div class="row">
+    				<div class="col-sm-12">
+    					<h1>Smash Faces c:</h1>
+    					<hr>
+    					<!--instrucciones-->
+    					<p>Binvenidos al juego de <b>Smash Faces c:, </b>tu misión es poder identificar a todas tus compañeras. de clase<br>Ingesando su nombre. Tienes <b>5 oportunidades</b> antes de perder <b>1 punto</b> y pasar a la<br>siguiente.</p>
+    				</div>
+    			</div>
+    		</header>
+    		<section><!--contador y menú paises-->
+    			<div class="row">
+    				<div class="col-sm-4"><!--opcionsedes-->
+    					<p class="inlineBlock">Elige tu sede</p>
+    					<select id="sedes">
+    						<option>Chile</option>
+    						<option>México</option>
+    						<option>Perú</option>
+    					</select>		
+    				</div>
+    				<div class="col-sm-8">
+    							
+    				</div><!--contador-->	
+    			</div>	
+    		</section><!--contador y menú sedes cierre-->
+    		<section><!--foto e ingreso nombre-->
+    			<div class="row cuadro">
+    				<div class="col-sm-4">
+    					<div id="alumnas-foto-nombre">
+    						<img id="alumna-foto" src=""><!--foto compañera, aqui va un arreglo para que sea random-->
+    						<hr id="vertical">
+    						<p id="alumna-nombre"></p>
+    					</div>
+    				</div>
+    				<div class="col-sm-8">
+    					<input type="text" name="nombre" placeholder="Ingresa su nombre" class="block">
+    					<button id="comprobar">Comprobar</button>	
+    				</div>
+    			</div>	
+    		</section><!--foto e ingreso nombre cierre-->
+    	</div><!--container cierre-->
+    <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
